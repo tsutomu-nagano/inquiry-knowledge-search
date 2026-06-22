@@ -1,0 +1,11 @@
+Exit code: 0
+Wall time: 0.3 seconds
+Output:
+services:
+  knowledge-search:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+
