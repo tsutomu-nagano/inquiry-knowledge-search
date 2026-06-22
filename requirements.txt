@@ -1,0 +1,8 @@
+Exit code: 0
+Wall time: 0.3 seconds
+Output:
+fastapi==0.116.1
+uvicorn[standard]==0.35.0
+python-multipart==0.0.20
+openpyxl==3.1.5
+
