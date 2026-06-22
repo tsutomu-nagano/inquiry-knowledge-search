@@ -1,0 +1,9 @@
+Exit code: 0
+Wall time: 0.3 seconds
+Output:
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>問い合わせナレッジ検索</title><link rel="stylesheet" href="/static/style.css"></head>
+<body><header><div><small>DATA PLATFORM · INTERNAL TOOL</small><h1>問い合わせナレッジ検索</h1></div><label class="upload">Excel / CSV を読み込む<input id="file" type="file" accept=".xlsx,.csv"></label></header>
+<main><section class="search"><label for="q">新しい問い合わせ、または検索したい内容</label><div class="search-row"><textarea id="q" rows="3" placeholder="例：2020年国勢調査の小地域データはどこから取得できますか？"></textarea><button id="search">類似事例を検索</button></div><div class="filters"><label>種類<select id="type"><option value="">すべて</option></select></label><label>カテゴリ<select id="category"><option value="">すべて</option></select></label><label>言語<select id="language"><option value="">すべて</option></select></label><label>回答可否<select id="answer"><option value="">すべて</option><option>はい</option><option>いいえ</option></select></label></div><p id="status"></p></section>
+<div class="grid"><section><div class="heading"><h2>類似する過去の問い合わせ</h2><span id="count"></span></div><div id="results"></div></section><aside><h2>運用上の注意</h2><p>検索結果は回答案の参照用です。掲載先・更新日を確認してから返信してください。</p><hr><h3>必須列</h3><p>受付日、問い合わせ内容、問い合わせ種類、回答内容、対象カテゴリ、他部署へのエスカレーション有無、問い合わせ言語、該当データを回答できたか</p><p>取込データはコンテナ内の <code>/app/data</code> に保存されます。</p></aside></div></main><script src="/static/app.js"></script></body></html>
+
