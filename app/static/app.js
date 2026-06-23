@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 0.3 seconds
-Output:
 const $ = id => document.getElementById(id);
 const filterFields = [["type", "問い合わせ種類"], ["category", "対象カテゴリ"], ["language", "問い合わせ言語"]];
 

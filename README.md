@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 0.3 seconds
-Output:
 # 問い合わせナレッジ検索
 
 Docker Composeで動作する、Excel問い合わせ履歴の類似検索試作です。架空の履歴6件を初期登録しています。

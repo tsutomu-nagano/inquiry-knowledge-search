@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 0.3 seconds
-Output:
 FROM python:3.12-slim
 
 WORKDIR /app
